@@ -1,0 +1,22 @@
+.nav-tabs .nav-link {
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    background-color: #f8f9fa;
+    color: #495057;
+    transition: background-color 0.2s;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff #007bff #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
